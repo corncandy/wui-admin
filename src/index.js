@@ -1,5 +1,3 @@
-'use strict';
+import { Button } from 'react-bootstarp';
 
-// this should be the entry point to your library
-module.exports = {};
-
+export default { Button }

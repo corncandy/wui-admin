@@ -1,9 +1,9 @@
 {
-  "name": "react-component-boilerplate",
-  "description": "Boilerplate for React.js components",
-  "author": "Juho Vepsalainen",
-  "user": "survivejs",
-  "version": "2.5.5",
+  "name": "wui-admin",
+  "description": "UI lib for wd-admin project.",
+  "author": "Cloud Mu",
+  "user": "corncandy",
+  "version": "0.0.1",
   "scripts": {
     "start": "webpack-dev-server",
     "test": "karma start",
@@ -77,11 +77,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/survivejs/react-component-boilerplate.git"
+    "url": "https://github.com/corncandy/wui-admin.git"
   },
-  "homepage": "https://survivejs.github.io/react-component-boilerplate/",
+  "homepage": "https://github.com/corncandy/wui-admin/",
   "bugs": {
-    "url": "https://github.com/survivejs/react-component-boilerplate/issues"
+    "url": "https://github.com/corncandy/wui-admin/issues"
   },
   "keywords": [
     "react",
@@ -92,5 +92,8 @@
   "pre-push": [
     "test",
     "test:lint"
-  ]
+  ],
+  "dependencies": {
+    "react-bootstrap": "^0.29.5"
+  }
 }
