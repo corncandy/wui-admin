@@ -62,7 +62,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _reactBootstrap = __webpack_require__(1);
 	
-	exports.default = { Button: _reactBootstrap.Button };
+	Object.defineProperty(exports, 'Button', {
+	  enumerable: true,
+	  get: function get() {
+	    return _reactBootstrap.Button;
+	  }
+	});
 
 /***/ },
 /* 1 */
